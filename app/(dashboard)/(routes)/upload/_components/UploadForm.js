@@ -42,6 +42,7 @@ function UploadForm({uploadBtnClick}) {
         onClick={()=>uploadBtnClick(file)}>
         Upload
         </button>
+        {/* <ProgressBar/> */}
     
     </div>
   )
